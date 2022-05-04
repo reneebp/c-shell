@@ -1,8 +1,6 @@
  * @file myShell.c
  * @author Renee Palmer 
  * @brief Assignment 1: implement a UNIX shell program
- * Email: rpalme05@uoguleph.ca
- * Student number: 1043935
 
 Functions in rshFunctions:
 In setOne.c:
@@ -52,10 +50,6 @@ In setTwo.c:
             - this function creates a one level pipe and creates two processes (one for each instruction)
             - per a process, stdout (for left ahnd command) and stdin (for right hand command) are redirected to the pipe
               using dup()
-        - this function was tested using various instructions with the pipe (|) command 
-
-Limitations:
-Unfortunately, I did not implement the set 3 instructions of the assignment, therefore myShell is very limited in functionality
-compared to an actual shell.
+        - this function was tested using various instructions with the pipe (|) command
 
 
