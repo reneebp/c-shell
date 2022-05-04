@@ -2,8 +2,6 @@
  * @file myShell.c
  * @author Renee Palmer 
  * @brief Assignment 1: implement a UNIX shell program
- * Email: rpalme05@uoguleph.ca
- * Student number: 1043935
  */
 #include "rshFunctions.h"
 
